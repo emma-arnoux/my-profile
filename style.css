@@ -1,0 +1,119 @@
+body {
+background-color: rgb(236, 227, 227);
+    color:rgb(46, 36, 45);
+font-family:Arial, Helvetica, sans-serif;
+font-size: 17px; 
+font-weight: lighter;
+
+}
+h1,h2,h3,h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}    
+
+
+h1 {
+color: royalblue;
+font-family:'Times New Roman', Times, serif 
+}
+
+h2 {
+    color:royalblue;
+    font-size:22px;
+    font-weight:600;
+}
+
+
+
+img {
+border-radius:50%;
+width: 200px;
+}
+
+a{
+border-radius: 40x;
+color: white;
+background-color:#6A75DA;
+text-decoration: none;
+padding: 15px 20px;
+font-weight:600;
+}
+a:hover {
+background-color: rgb(182, 108, 108);
+}
+  
+/* custom design with class */
+.container {
+    width:700px;
+    margin:40px auto;
+}
+
+@media(max-width: 760px){
+    .container {
+        width: 600px;
+      }   
+    }
+
+    
+@media(max-width: 500px){
+.container {
+    width: 400px;
+  }   
+}
+
+
+div {
+    background-color:rgb(24, 7, 7):
+    padding:40px;
+    width:650px;
+    margin: 40px auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center:
+    border-radius:4px;
+    }
+
+.card-white { 
+    background-color:white ;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1); 
+    margin: 20px auto;
+    text-align: center  
+    
+}
+
+.img-circle{
+    border-radius:50%;
+}
+
+.btn-blue{
+    background-color:rgb(237, 64, 237) ;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+     
+}
+
+.btn-blue:hover{background-color: rgb(20, 12, 12);
+color :white}
+
+.list-inline {
+life-style:none;
+padding-left: 0px;
+
+
+}
+
+.list-inline >li{
+display: inline;
+padding: 10px;
+}
+ 
+
+.list-inline >i {
+display: inline;
+padding:0px 20px;
+}
+
+#introduction >p {
+margin-bottom: 40px;
+}
